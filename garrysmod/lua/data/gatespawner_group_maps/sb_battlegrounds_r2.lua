@@ -98,7 +98,6 @@ destroyed=false
 classname=dhd_city
 position=-10731.656250 -281.149963 6881.101074
 angles=0.000 59.376 0.000
--- Underground DHD below to make the above city DHD connect
 [dhd]
 classname=dhd_atlantis
 position=-10696.123047 -278.237549 6609.221680

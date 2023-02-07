@@ -5,7 +5,7 @@ version = 3 Group
 [stargate]
 classname=stargate_sg1
 position=-10364.243164 -3913.695557 -7923.724609
-angles=-0.000 89.920 0.000
+angles=0.000 89.920 -0.000
 address=HI1GAR
 group=M@
 name=Hiigara
@@ -58,13 +58,14 @@ private=false
 locale=false
 [stargate]
 classname=stargate_atlantis
-position=-9937.552734 1038.852783 5416.031738
-angles=0.000 -45.000 0.000
+position=-9934.830078 1036.417480 5476.155762
+angles=0.000 -45.290 0.000
 address=SACEGT
 group=P@
 name=Asteroid Field
 private=false
 locale=false
+__id=488
 [dhd]
 classname=dhd_sg1
 position=-10367.528320 -3456.226563 -8078.768555
@@ -117,3 +118,21 @@ classname=cap_console
 position=-631.833435 -500.027557 4624.200684
 angles=-0.025 -87.913 0.003
 model=models/zsdaniel/atlantis_console/console.mdl
+[prop_physics]
+classname=prop_physics
+position=-9850.922852 1119.069092 5544.154785
+angles=-60.000 -135.290 -0.000
+model=models/cebt/sga_pwnode.mdl
+__id=488
+[prop_physics]
+classname=prop_physics
+position=-9934.830078 1036.417480 5340.158203
+angles=0.000 -135.290 180.000
+model=models/cebt/sga_pwnode.mdl
+__id=488
+[prop_physics]
+classname=prop_physics
+position=-10017.596680 952.614868 5544.154785
+angles=60.000 -135.290 0.000
+model=models/cebt/sga_pwnode.mdl
+__id=488

@@ -32,7 +32,7 @@ locale=false
 [stargate]
 classname=stargate_universe
 position=-8482.954102 6378.092285 1717.905273
-angles=0.000 25.826 0.000
+angles=0.000 25.826 -0.000
 address=AYRICE
 group=U@!
 name=Aura
@@ -58,15 +58,6 @@ private=false
 locale=false
 [stargate]
 classname=stargate_atlantis
-position=1109.733887 11479.041016 3856.706543
-angles=0.000 -33.666 0.000
-address=NAVKIR
-group=P@
-name=Navkir Spacegate
-private=false
-locale=false
-[stargate]
-classname=stargate_atlantis
 position=-11092.943359 -1229.261108 6742.310547
 angles=0.000 75.841 0.000
 address=FREDON
@@ -74,6 +65,16 @@ group=P@
 name=Freedonia
 private=false
 locale=false
+[stargate]
+classname=stargate_atlantis
+position=1084.429688 11402.713867 3884.884766
+angles=0.000 -22.721 0.000
+address=NAVKIR
+group=P@
+name=Navkir Spacegate
+private=false
+locale=false
+__id=550
 [dhd]
 classname=dhd_sg1
 position=6412.304688 8054.534668 9423.947266
@@ -136,5 +137,23 @@ model=models/markjaw/sgu_ramp.mdl
 [ramp]
 classname=sgu_ramp
 position=-8481.154297 6378.963379 1718.905273
-angles=-0.000 25.826 0.000
+angles=0.000 25.826 -0.000
 model=models/markjaw/sgu_ramp.mdl
+[prop_physics]
+classname=prop_physics
+position=1084.429688 11402.713867 3748.887207
+angles=-0.000 -112.721 180.000
+model=models/cebt/sga_pwnode.mdl
+__id=550
+[prop_physics]
+classname=prop_physics
+position=1040.165527 11293.563477 3952.883789
+angles=60.000 -112.721 0.000
+model=models/cebt/sga_pwnode.mdl
+__id=550
+[prop_physics]
+classname=prop_physics
+position=1130.188721 11511.239258 3952.883789
+angles=-60.000 -112.721 -0.000
+model=models/cebt/sga_pwnode.mdl
+__id=550

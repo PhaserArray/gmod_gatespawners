@@ -103,6 +103,21 @@ classname=dhd_atlantis
 position=-10696.123047 -278.237549 6609.221680
 angles=8.957 50.099 0.894
 destroyed=false
+[ring_base]
+classname=ring_base_ancient
+position=-9326.892578 -11104.103516 9699.031250
+angles=0.000 0.000 0.000
+address=1
+[ring_base]
+classname=ring_base_ancient
+position=-9326.892578 -11104.103516 10287.031250
+angles=0.000 0.000 0.000
+address=2
+[ring_base]
+classname=ring_base_ancient
+position=-9326.892578 -11104.103516 10927.031250
+angles=0.000 0.000 0.000
+address=3
 [ramp]
 classname=ramp
 position=-14265.202148 -12559.500977 9680.379883
